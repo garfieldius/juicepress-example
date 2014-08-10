@@ -1,0 +1,17 @@
+{{> top }}
+
+{{#if title}}<h2>{{ title }}</h2>{{/if}}
+
+<div class="list-group">
+
+    {{#each elements }}
+        <article class="list-group-item">
+            <a href="{{link_page target}}">
+                <h4 class="list-group-item-heading">{{ data.title }}</h4>
+                <p class="list-group-item-text">{{ data.excerpt }}</p>
+            </a>
+        </article>
+    {{/each}}
+</div>
+
+{{> bottom }}

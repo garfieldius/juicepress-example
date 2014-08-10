@@ -1,0 +1,20 @@
+{{> top }}
+
+{{!
+    USE THE TRIPLE BRACES FOR THE CONTENT
+    Because the content is already generated Markup
+}}
+
+{{{ content }}}
+
+<div class="pager">
+    {{#if previous}}
+        <li class="previous"><a href="{{link_post previous.target}}">&larr; {{previous.title}}</a></li>
+    {{/if}}
+
+    {{#if next}}
+        <li class="next"><a href="{{link_post next.target}}">{{next.title}} &rarr;</a></li>
+    {{/if}}
+</div>
+
+{{>bottom}}
