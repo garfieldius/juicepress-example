@@ -7,10 +7,9 @@ author:
   email: john@doe.com
 tags:
   - Node
-  - Gruntjs
+  - gulp
 categories:
   - Example
-  - Grunt
 ---
 
 # Building using grunt
