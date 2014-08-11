@@ -1,5 +1,10 @@
 # Juicepress Example
 
+A fully working example on how to build a blog with juicepress using grunt or gulp.
+
+This is not just a demo, but also a *boilerplate* or template for your own blog. You simple would have to write some posts, change the baseUrl settings and it could be put live.
+I would recommend to adjust the templates though.
+
 ## Installation
 
 Clone the repository and install the dependencies
